@@ -29,6 +29,10 @@
             <id>mavenCentral</id>
             <url>https://repo1.maven.org/maven2/</url>
         </repository>
+        <repository>
+            <id>mewcraftRepo</id>
+            <url>file://${user.home}/MewcraftRepository</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -89,8 +93,8 @@
     
     <distributionManagement>
         <repository>
-            <id>xenondevs</id>
-            <url>https://repo.xenondevs.xyz/releases/</url>
+            <id>mewcraftCentral</id>
+            <url>file://${user.home}/MewcraftRepository</url>
         </repository>
     </distributionManagement>
 
