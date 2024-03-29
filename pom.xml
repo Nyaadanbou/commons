@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>commons</artifactId>
-    <groupId>xyz.xenondevs.commons</groupId>
+    <groupId>cc.mewcraft.commons</groupId>
     <version>1.9</version>
     <packaging>pom</packaging>
     <modules>
