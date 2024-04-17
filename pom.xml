@@ -91,11 +91,11 @@
             </plugin>
         </plugins>
     </build>
-    
+
     <distributionManagement>
         <repository>
-            <id>mewcraftCentral</id>
-            <url>file://${user.home}/MewcraftRepository</url>
+            <id>mewcraft-repository-releases</id>
+            <url>https://repo.mewcraft.cc/releases</url>
         </repository>
     </distributionManagement>
 
